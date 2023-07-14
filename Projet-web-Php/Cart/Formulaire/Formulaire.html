@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Formulaire.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+</head>
+<body>
+  <header>
+    <a href="#"><img src="/projet-web/assets/image/logo2.png" alt="logo"></a>
+    <div>
+        <ul class="navbar">
+            <li><a href="/projet-web/Home/Home.html">Home</a></li>
+            <li><a href="/projet-web/shop/Shop.php">Shop</a></li>
+            <li><a href="/projet-web/Contact/Contact.html">Contact</a></li>
+            <li><a href="/projet-web/Cart/Cart.php"><img src="/projet-web/assets/image/ShoppingCart-removebg-preview.png" alt="ShoppingCart"></a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+    <div class="container">
+        <div class="title">
+            <h2>Product Order Form</h2>
+        </div>
+      <div class="info-formulaire">
+        <form action="formulaireConf.php" method="post">
+          <label>
+            <span class="fname">First Name <span class="required">*</span></span>
+            <input type="text" name="fname" >
+          </label>
+          <label>
+            <span class="lname">Last Name <span class="required">*</span></span>
+            <input type="text" name="lname" >
+          </label>
+         
+          <label>
+            <span>Street Address <span class="required">*</span></span>
+            <input type="text" name="houseadd" placeholder="House number and street name" >
+          </label>
+          <label>
+            <span>&nbsp;</span>
+            <input type="text" name="apartment" placeholder="Apartment, suite, etc... (optional)">
+          </label>
+          <label>
+            <span>Town / City <span class="required">*</span></span>
+            <input type="text" name="city" >  
+          </label>
+          <label>
+            <span>Postcode / ZIP <span class="required">*</span></span>
+            <input type="text" name="postcode" > 
+          </label>
+          <label>
+            <span>Phone <span class="required">*</span></span>
+            <input type="tel" name="phone" > 
+          </label>
+          <label>
+            <span>Email Address <span class="required">*</span></span>
+            <input type="email" name="email" > 
+          </label>
+          <button type="submit" name="submit" value="submit">Place Order</button>
+          <input type="reset" value="Reset">
+        </form>
+        <div class="order">
+         
+          <div>
+            <input type="radio" name="dbt" value="Direct Bank Transfer" checked> Direct Bank Transfer
+          </div>
+          <p>
+              Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.
+          </p>
+          <div>
+            <input type="radio" name="dbt" value="Cash on Delivery"> Cash on Delivery
+          </div>
+          
+        </div>
+       </div>
+      </div>
+
+
+      <div class="footer">
+        <div class="brand">
+            <div class="logoFooter">
+                <img src="/projet-web/assets/image/logo2.png" alt="">
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/angelstore.tn"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/angel.store.tn/"><i class="bi bi-instagram"></i></a>
+                <a href="https://linkedin.com/"><i class="bi bi-linkedin"></i></a>
+                <a href="https://twitter.com/"><i class="bi bi-twitter"></i></a>
+            </div>
+
+
+        </div>
+
+        <div class="info">
+            <div class="a1">
+                <h6><a href="https://mail.google.com/mail"><i class="bi bi-envelope"></i></a>Email : Angelstoretn@gmail.com </h6>
+            </div>
+
+            <div class="a1">
+                <h6>
+                    <i class="bi bi-telephone"></i>
+                    Phone : 53 821 022
+                </h6>
+            </div>
+
+
+            <div class="a1">
+                <h6><i class="bi bi-geo-alt"></i>Adress : Monastir, Tunisia </h6>
+            </div>
+            <p class="copyright"> Angel store © 2023</p>
+
+        </div>
+    </div>
+    
+</body>
+<script src="Formulaire.js"></script>
+</html>

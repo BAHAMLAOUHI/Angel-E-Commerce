@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box ;
+    font-family: 'League Spartan', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 64px;
+
+}
+
+h2{
+    font-size: 46px;
+    line-height: 54px;
+}
+
+
+h4{
+    font-size: 20px;
+    
+    
+}
+
+h6{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 16px;
+    margin: 15px 0 20px 0 ;
+
+}
+
+body{
+    width: 100%;
+}
+
+
+/* header css */ 
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 50px;
+    background-color: #e3e6f3;
+    box-shadow: 0 5px 15px rgb(0, 0, 0,0.06);
+    position: sticky;
+}
+
+header img {
+    width: 210px;
+    height: 60px;
+}
+
+header .navbar img{
+    width: 30px;
+    height: 30px;
+}
+
+.navbar { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
+
+.navbar li {
+    list-style: none;
+    padding: 0 30px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight:bold;
+    color: #1a1a1a;
+
+}
+
+.navbar li a:hover{
+    color: #088178 ;
+    text-decoration: underline;
+    
+
+
+}
+
+
+
+
+/*Cart*/
+
+
+
+
+/*head of the table*/
+
+.cart{
+    margin : 50px 70px ;
+    position: relative;
+    
+    
+}
+.cart table  {
+    width : 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+
+}
+
+.cart table thead {
+    border: 2px solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+}
+
+.cart table thead th{
+    font-weight: 700;
+    font-size: larger;
+    padding: 18px 0 ;
+
+}
+
+
+
+/*body of the table */
+
+
+
+
+.cart table img{
+    width: 70px;
+}
+
+.cart table th:nth-child(1){
+    width: 100px;
+    text-align: center;
+
+}
+.cart table th:nth-child(2){
+    width: 150px;
+    text-align: center;
+
+}
+.cart table th:nth-child(3){
+    width: 250px;
+    text-align: center;
+
+}
+.cart table th:nth-child(4),
+.cart table th:nth-child(5),
+.cart table th:nth-child(6)
+{
+    width: 150px;
+    text-align: center;
+
+}
+
+.cart table th:nth-child(5) input{
+width: 50px;
+padding: 10px 5px 10px 15px;
+}
+
+
+.cart table tbody tr th{
+
+padding-top: 15px;
+}
+
+.cart table tbody th{
+    font-size: medium;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+.cart table tbody{
+border-bottom: 2px #e2e9e1 solid;
+}
+
+.cart button {
+    position: absolute;
+    right: 40px;
+    margin: 10px;
+    padding: 13px 30px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #088178;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer */ 
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20rem;
+    padding-bottom: 8vh;
+    padding-top:8vh ;
+    background-color:#faf8fe;
+    margin-top: 80px;
+    
+    
+}
+
+.footer .a1{
+    padding: 10px;
+}
+
+.footer h6 i{
+    padding-right: 10px;
+    color: #088178;
+}
+
+.footer img{
+    height: 80px;
+    width: 300px;
+}
+
+.footer .social  i{
+
+    padding: 15px 25px;
+
+    
+    
+}
+
+
+.logoFooter{
+    margin-bottom:10px
+}

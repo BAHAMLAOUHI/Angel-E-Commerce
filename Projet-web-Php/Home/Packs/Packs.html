@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Packs.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <title>packs</title>
+</head>
+<body>
+    <header>
+        <a href="#"><img src="/projet-web/assets/image/logo2.png" alt="logo"></a>
+        <div>
+            <ul class="navbar">
+                <li><a href="/projet-web/Home/Home.html">Home</a></li>
+                <li><a href="/projet-web/shop/Shop.php">Shop</a></li>
+                <li><a href="/projet-web/Contact/Contact.html">Contact</a></li>
+                <li><a href="/projet-web/Cart/Cart.php"><img src="/projet-web/assets/image/ShoppingCart-removebg-preview.png" alt="ShoppingCart"></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+<div class="container-packs">
+<div class="One-pack">
+    <div class="vd">
+        <h4>Our first package</h4>
+        <video src="../../assets/Videos/pack1.mp4"  controls loop></video>
+    </div>
+    <div class="vd-description">
+    <p>Our new ANGEL BOXES✅✅❤<br><br>
+        Contains:
+         1 mug ,1 pack of stickers (~20 stickers)
+            ,1 pair of tie dye socks
+           , 4 pins
+        
+        Choose your favourite theme and buy its box💥💥
+        Don't miss this CHANCE❤</p>   
+   </div>
+</div>
+
+
+<div class="One-pack">
+    <div class="vd">
+        <h4>Our Second package</h4>
+        <video src="../../assets/Videos/pack2.mp4"  controls loop></video>
+    </div>
+    <div class="vd-description">
+      <p>Our new ANGEL BOXES✅✅❤<br><br>
+        Contains:
+        <ol type="I">
+            <li>1 mug</li>
+            <li>1 pack of stickers (~20 stickers)</li>
+            <li>1 pair of tie dye socks</li>
+            <li>4 pins</li>
+        </ol>
+        Choose your favourite theme and buy its box💥💥
+        Don't miss this CHANCE❤</p>    
+   </div>
+</div> 
+
+
+<div class="One-pack">
+    <div class="vd">
+        <h4>Our third package</h4>
+        <video src="../../assets/Videos/pack2.mp4"  controls loop></video>
+    </div>
+    <div class="vd-description">
+      <p>Our new ANGEL BOXES✅✅❤<br><br>
+        Contains:
+        <ol class="list-3">
+            <li>1 mug</li>
+            <li>1 pack of stickers (~20 stickers)</li>
+            <li>1 pair of tie dye socks</li>
+            <li>4 pins</li>
+        </ol>
+        Choose your favourite theme and buy its box💥💥
+        Don't miss this CHANCE❤</p>    
+   </div>
+</div>
+
+
+</div>
+
+
+<form action="packs.php" method="post">
+    <label>
+        <h4 class="check-h4">Which one did you like the most?</h4>
+        <span>First pack</span>
+        <input type="checkbox" name="pack[]" value="First Pack" class="checkk">
+        <span>Second pack</span>
+        <input type="checkbox" name="pack[]" value="Second Pack" class="checkk">
+        <span>Third pack</span>
+        <input type="checkbox" name="pack[]" value="Third Pack" class="checkk">
+    </label>
+
+    <hr class="myhr">
+
+    <label for="desc"> 
+        <h4>If you have something to say:</h4> 
+        <br>
+        <textarea name="description" id="desc" cols="100" rows="15"></textarea>
+        <br>
+        <button type="submit" class="btn-send">Send</button>
+    </label>
+</form>
+
+
+
+
+<div class="footer">
+    <div class="brand">
+        <div class="logoFooter">
+            <img src="/projet-web/assets/image/logo2.png" alt="">
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/angelstore.tn"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/angel.store.tn/"><i class="bi bi-instagram"></i></a>
+            <a href="https://linkedin.com/"><i class="bi bi-linkedin"></i></a>
+            <a href="https://twitter.com/"><i class="bi bi-twitter"></i></a>
+        </div>
+
+
+    </div>
+
+    <div class="info">
+        <div class="a1">
+            <h6><a href="https://mail.google.com/mail"><i class="bi bi-envelope"></i></a>Email : Angelstoretn@gmail.com </h6>
+        </div>
+
+        <div class="a1">
+            <h6>
+                <i class="bi bi-telephone"></i>
+                Phone : 53 821 022
+            </h6>
+        </div>
+
+
+        <div class="a1">
+            <h6><i class="bi bi-geo-alt"></i>Adress : Monastir, Tunisia </h6>
+        </div>
+        <p class="copyright"> Angel store © 2023</p>
+
+    </div>
+</div>
+
+    
+</body>
+</html>

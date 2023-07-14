@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box ;
+    font-family: 'League Spartan', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 64px;
+
+}
+
+h2{
+    font-size: 46px;
+    line-height: 54px;
+}
+
+
+h4{
+    font-size: 20px;
+    
+    
+}
+
+h6{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 16px;
+    margin: 15px 0 20px 0 ;
+
+}
+
+body{
+    width: 100%;
+}
+
+
+
+
+/*Header css */ 
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 50px;
+    background-color: #e3e6f3;
+    box-shadow: 0 5px 15px rgb(0, 0, 0,0.06);
+    position: sticky;
+}
+
+header img {
+    width: 210px;
+    height: 60px;
+}
+
+header .navbar img{
+    width: 30px;
+    height: 30px;
+}
+
+.navbar { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
+
+.navbar li {
+    list-style: none;
+    padding: 0 30px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight:bold;
+    color: #1a1a1a;
+
+}
+
+.navbar li a:hover{
+    color: #088178 ;
+    text-decoration: underline;
+    
+
+
+}
+
+
+
+/*Segmentation css */ 
+
+.category-select {
+    width: 200px; 
+    height: 40px; 
+    font-size: 16px; 
+    color: #333; 
+    background-color: #fff; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    padding: 8px; 
+    margin-top: 5px;
+  }
+
+  
+  .category-select option:checked {
+    background-color: #e3e6f3; 
+    color: #333; 
+  }
+
+  .segmentation {
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    align-items: center;
+    border-bottom: 2px solid #e3e6f3;
+    padding: 10px ;
+  }
+
+
+
+
+  /* Product presentation*/ 
+
+
+  .product-container {
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+ 
+
+  .product-container .product{
+    width: 20%;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    cursor: pointer;
+    box-shadow:  20px 20px 30px rgb(0, 0, 0,0.02);
+    margin: 10px 0;
+    border-radius: 20px;
+    position: relative;
+    
+  }
+
+  .product-container .product:hover{
+
+    box-shadow:  20px 20px 30px rgb(0, 0, 0,0.06);
+
+  }
+  
+
+  .product-container .product img {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #e3e6f3;
+
+  }
+
+
+  .product-container .product-description {
+    padding: 10px 0;
+    
+
+  }
+
+  .product-container .product-description h5{
+    padding-top: 7px;
+    font-size: 14px;
+    padding-bottom: 4px;
+
+  }
+
+  .product-container .product-description .star i{ 
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+
+  }
+
+  .product-container .product-description h4 {
+    padding-top: 7px;
+    font-size: 15px;
+    color: #088178;
+    padding-bottom: 5px;
+  }
+
+  .product-container .product-description a i {
+    display: flex; /*badel linline*/
+    width: 40px;
+    height: 30px;
+    line-height: 50px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    border: 1px solid #cce7d0 ;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+
+
+
+/* footer */ 
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20rem;
+    padding-bottom: 8vh;
+    padding-top:8vh ;
+    background-color:#faf8fe;
+    margin-top: 50px;
+    
+    
+}
+
+.footer .a1{
+    padding: 10px;
+}
+
+.footer h6 i{
+    padding-right: 10px;
+    color: #088178;
+}
+
+.footer img{
+    height: 80px;
+    width: 300px;
+}
+
+.footer .social  i{
+
+    padding: 15px 25px;
+
+    
+    
+}
+
+
+.logoFooter{
+    margin-bottom:10px
+}

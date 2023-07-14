@@ -1,0 +1,13 @@
+Angel sTore Functionalities :
+
+Homepage: The homepage serves as the entry point for users and includes branding, a navigation menu, and a visually appealing layout showcasing products and promotions.
+
+Shop Page: The Shop Page displays products organized by categories, allowing users to browse and view product details. Users can add products to their cart for purchase.
+
+Product Presentation Page: This page provides detailed information about a specific product, including images, descriptions, pricing, and other relevant details. Users can access this page by clicking on a product from the Shop Page.
+
+Cart Page: The Cart Page displays products added to the cart, along with prices and other information. Users can review their cart contents, update quantities, and proceed to checkout.
+
+Checkout Page: The Checkout Page allows users to confirm their order by providing shipping address, payment method, and other relevant details. Users may need to fill out a form to provide the necessary information for order processing.
+
+Contact Page: The Contact Page includes information on how users can get in touch with Angel Store, such as contact details and a contact form.

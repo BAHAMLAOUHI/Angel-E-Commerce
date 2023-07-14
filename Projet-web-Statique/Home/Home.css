@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box ;
+    font-family: 'League Spartan', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 64px;
+
+}
+
+h2{
+    font-size: 46px;
+    line-height: 54px;
+}
+
+
+h4{
+    font-size: 20px;
+    
+    
+}
+
+h6{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 16px;
+    margin: 15px 0 20px 0 ;
+
+}
+
+body{
+    width: 100%;
+}
+
+
+
+/*Header css */ 
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 50px;
+    background-color: #e3e6f3;
+    box-shadow: 0 5px 15px rgb(0, 0, 0,0.06);
+    position: sticky;
+}
+
+header img {
+    width: 210px;
+    height: 60px;
+}
+
+header .navbar img{
+    width: 30px;
+    height: 30px;
+}
+
+.navbar { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
+
+.navbar li {
+    list-style: none;
+    padding: 0 30px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight:bold;
+    color: #1a1a1a;
+
+}
+
+.navbar li a:hover{
+    color: #088178 ;
+    text-decoration: underline;
+    
+
+
+}
+
+
+/*Home css*/
+
+.hero{
+    background-image: url("../assets/image/hero4.png");
+    background-color: #e3e6f3;
+    height: 87vh;
+    background-position: top 20% right 17%;
+    background-size: 45em ;
+    background-repeat: no-repeat;
+    padding: 0 80px ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+
+}
+
+.hero h4 {
+    padding-bottom: 15px;
+}
+
+.hero h1{
+    color: #088178;
+}
+
+.hero button {
+    background-image: url("../assets/image/button.png");
+    background-color: transparent;
+    border: none;
+    color: #088178;
+    padding: 14px 80px 14px 65px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+/*Service*/
+
+
+
+
+h1{
+    padding: 2rem 0;
+text-align: center;
+}
+
+.Services img{
+    height: 150px;
+    width: 150px;
+}
+
+.Services p{
+
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.Services{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 18.5%;
+    gap: 1rem;
+    overflow-x: auto;
+    /*
+    overscroll-behavior-inline: contain;*/
+    
+
+}
+
+.Services::-webkit-scrollbar {
+    display: none;
+}
+
+
+.Services button {
+    position: absolute;
+    height: 205.8px;
+    width: 40px; 
+    background-color: #e3e6f3; 
+    border: none; 
+    outline: none; 
+    cursor: pointer; 
+  }
+  
+  .scroll-button-left-button {
+    left: 0; 
+    
+  }
+  
+  .scroll-button-right-button {
+    right: 0; 
+  }
+
+
+.service-element{
+    text-align: center;
+    box-shadow: 20px 20px 34px rgb(0, 0, 0,0.06);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+
+}
+
+
+
+/*Banner*/
+
+
+.banner{
+    margin-top: 11vh ;
+    padding: 10px;
+    text-align: center;
+    background-color: #e3e6f3;
+    background-image: url("/assets/image/banner.png");
+    background-size: cover;
+    background-position:center;
+    height: 20vh;
+    margin-bottom: 10vh;
+    
+    
+
+}
+
+.banner span{
+    color: #088178;
+    
+}
+.banner button {
+      padding: 10px;
+      cursor: pointer;
+      border: 1px black;
+      border-radius: 10px;
+
+      
+}
+
+.banner button:hover{
+    background-color: #e3fcfb;
+}
+
+
+
+
+/*Footer*/
+
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20rem;
+    padding-bottom: 8vh;
+    padding-top:8vh ;
+    background-color:#faf8fe;
+    
+    
+}
+
+.footer .a1{
+    padding: 10px;
+}
+
+.footer h6 i{
+    padding-right: 10px;
+    color: #088178;
+}
+
+.footer img{
+    height: 80px;
+    width: 300px;
+}
+
+.footer .social  i{
+
+    padding: 15px 25px;
+
+    
+    
+}
+
+
+.logoFooter{
+    margin-bottom:10px
+}
+
+
+
+
+
+
+
+
+
+
